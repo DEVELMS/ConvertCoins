@@ -17,7 +17,6 @@
 		00B617E61EA6CBDB00173C60 /* Settable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B617E51EA6CBDB00173C60 /* Settable.swift */; };
 		00B617E81EA6D31A00173C60 /* settingsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B617E71EA6D31A00173C60 /* settingsUnitTests.swift */; };
 		00B617EA1EA7B1E000173C60 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B617E91EA7B1E000173C60 /* SettingsController.swift */; };
-		00B617ED1EA7B2CC00173C60 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B617EC1EA7B2CC00173C60 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		00B617E51EA6CBDB00173C60 /* Settable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settable.swift; sourceTree = "<group>"; };
 		00B617E71EA6D31A00173C60 /* settingsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsUnitTests.swift; sourceTree = "<group>"; };
 		00B617E91EA7B1E000173C60 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = unitTests/SettingsController.swift; sourceTree = SOURCE_ROOT; };
-		00B617EC1EA7B2CC00173C60 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 		00B617A11EA69C9C00173C60 /* unitTests */ = {
 			isa = PBXGroup;
 			children = (
-				00B617EB1EA7B2A900173C60 /* extensions */,
 				00B617E41EA6CBA600173C60 /* protocols */,
 				00B617C31EA69CC800173C60 /* models */,
 				00B617C61EA69CC800173C60 /* controllers */,
@@ -135,14 +132,6 @@
 				00B617E51EA6CBDB00173C60 /* Settable.swift */,
 			);
 			name = protocols;
-			sourceTree = "<group>";
-		};
-		00B617EB1EA7B2A900173C60 /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				00B617EC1EA7B2CC00173C60 /* ColorExtension.swift */,
-			);
-			name = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +242,6 @@
 				00B617DB1EA69E4000173C60 /* CoinModel.swift in Sources */,
 				00B617E61EA6CBDB00173C60 /* Settable.swift in Sources */,
 				00B617A31EA69C9C00173C60 /* AppDelegate.swift in Sources */,
-				00B617ED1EA7B2CC00173C60 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
