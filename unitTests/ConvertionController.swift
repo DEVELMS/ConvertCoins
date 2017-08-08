@@ -89,6 +89,7 @@ class ConvertionController: UIViewController, Settable {
     // MARK: Actions
     
     @IBAction func showSettings(_ sender: UIButton) {
+        self.valueToConvert.resignFirstResponder()
         settingsModal.delegate = self
         settingsModal.configModal(sender);
         self.present(settingsModal, animated: true, completion: nil)
