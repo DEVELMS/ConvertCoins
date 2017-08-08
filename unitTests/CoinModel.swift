@@ -54,6 +54,6 @@ struct CoinModel {
     }
     
     func valueFormated() -> String {
-        return String(format: "$%.02f", arguments: [self.value])
+        return String(format: "%.02f", arguments: [self.value])
     }
 }
